@@ -1,0 +1,89 @@
+[
+  {
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "id": "1c6aa0ef-07b8-46b0-b5f2-0002217bf3e4",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "styles": {
+          "fontSize": "17px",
+          "color": "#5e5e5e",
+          "width": "200px",
+          "paddingLeft": "30px",
+          "paddingRight": "10px"
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "childId": "1c6aa0ef-07b8-46b0-b5f2-0002217bf3e4",
+    "refId": "6a277702-2f97-4ff0-9dbb-39330b9ce61a"
+  },
+  {
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "id": "42dbf73a-d686-4860-87df-32d054bd5788",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "custom": {
+          "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam"
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "childId": "42dbf73a-d686-4860-87df-32d054bd5788",
+    "refId": "6a277702-2f97-4ff0-9dbb-39330b9ce61a"
+  },
+  {
+    "id": "5492f5dc-6cae-49b0-9774-d7a4f79de38e",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "callbacks": {
+          "onClick": [
+            {
+              "sendEventData": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "refId": "6a277702-2f97-4ff0-9dbb-39330b9ce61a",
+    "childId": "5492f5dc-6cae-49b0-9774-d7a4f79de38e"
+  },
+  {
+    "id": "6a277702-2f97-4ff0-9dbb-39330b9ce61a",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "meta": {
+      "pkg": "@atrilabs/react-component-manifests",
+      "key": "TextBox",
+      "manifestSchemaId": "@atrilabs/react-component-manifest-schema"
+    },
+    "state": {
+      "parent": {
+        "id": "templateRoot",
+        "index": 0
+      },
+      "alias": "TextBox17"
+    }
+  }
+]
